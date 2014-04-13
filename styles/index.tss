@@ -1,0 +1,35 @@
+
+"#body": {
+    top: "56dp",
+    bottom:0,
+    backgroundColor: "#e7ebeb",
+    //showVerticalScrollIndicator: false,
+    separatorColor: "transparent"
+},
+
+"#search": {
+    backgroundImage: "none",
+    backgroundGradient: {},
+    backgroundColor: "transparent",
+    showCancel: false,
+    barColor: "#fff",
+    focusable: false,
+    height: "50dp",
+    softKeyboardOnFocus : Titanium.UI.Android.SOFT_KEYBOARD_SHOW_ON_FOCUS
+},
+"#search_mask":{
+    top: 0,
+    height: "52dp",
+    backgroundColor: "#fff"
+},
+"#lup":{
+    width: "20dp",
+    height: "25dp",
+    image: "/loop.png", //gambar kaca pembesar 
+    left: "12dp"
+},
+"#search_hinttext":{
+    color: "#c1c1c1",
+    font: {fontSize:"15sp", fontStyle: "italic"},
+    left: "43dp"
+}

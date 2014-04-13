@@ -1,0 +1,18 @@
+<Alloy>
+	<Window id="indexwin">
+		
+		<TableView id="body" filterAttribute="title" filterCaseInsensitive="false">
+		    <SearchBar id="search" />
+		    <TableViewRow title="kemesraan ini janganlah Tetap berLAlu" />
+		
+		</TableView>
+		
+		<!-- masknya -->
+		<View id="search_mask" onSingletap="focussearch">
+		    <ImageView id="lup" />
+		    <Label id="search_hinttext" text="Cari sesuatu.." />
+		    <View backgroundColor="#c1c1c1" height="1dp" bottom="0" />
+		</View>
+		
+	</Window>
+</Alloy>
