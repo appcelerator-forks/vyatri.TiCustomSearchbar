@@ -47,8 +47,7 @@ $.search.addEventListener("focus",function(){
 /* you can use this function if you need to trigger filter event e.g. pressing a button to trigger filtering a certain keyword */
 function searchthis(e){
   $.search.value = "keyword to search";
-  $.search.hide();
-  $.search.show();
+  $.search.blur();
   focused = false;
   needclear = true;
 }
