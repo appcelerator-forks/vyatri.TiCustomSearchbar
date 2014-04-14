@@ -16,7 +16,9 @@ $.indexwin.addEventListener('androidback', function(e) {
 });
 $.indexwin.addEventListener('open', function(e) {
 	$.search.value = "";
-    $.search.blur();
+    setTimeout(function(){ // handling slow devices
+    	$.search.blur();
+    },300);
 });
 $.search.addEventListener('return', function(e) {
     if (focused == true) {
